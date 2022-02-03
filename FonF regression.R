@@ -1,25 +1,8 @@
-library("plot3D")
-data(DTI)
-DTI
-DTI1 <- DTI[DTI$visit==1 & complete.cases(DTI),]
-
-par(mfrow=c(1,2))
-
-# Fit model with linear functional term for CCA
-fit.lf <- pfr(pasat ~ ff(cca, k=30, bs="ps"), data=DTI1)
-plot(fit.lf, ylab=expression(paste(beta(t))), xlab="t")
+library(fda)
+library(refund)
 
 
-
-# Y(t) = f(t) + \int X1(s)\beta(s,t)ds + eps
-set.seed(2121)
-data1 <- pffrSim(scenario="ff", n=40)
-t <- attr(data1, "yindex")
-s <- attr(data1, "xindex")
-m1 <- pffr(Y ~ ff(X1, xind=s), yind=t, data=data1)
-summary(m1)
-plot(m1, scheme = 2,pages=1)
-
+# Y(t) = f(t) + \int X1(s)\beta(s,t)ds + e
 
 mortality.matrix2 <- t(as.matrix(mortality))
 mobility2 <- read.csv("/Users/josephpiekos/Desktop/project III/mobility_matrix.csv")
