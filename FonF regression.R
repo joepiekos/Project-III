@@ -18,7 +18,7 @@ psi_plot$fit
 
 
 jpeg("FonF regression plane.jpeg", units = "in", width = 12, height = 8 , res = 400)
-par(cex.lab=1.5,cex.axis=1,mar=c(1,1,3,1)+.1,cex.main = 2.5,bg = "#EEF0F2")
+par(cex.lab=1.5,cex.axis=1,mar=c(1,1,3,1)+.1,cex.main = 2.5)
 persp(psi_plot$x, psi_plot$y, matrix(psi_plot$fit, 40, 40),
       xlab = "Mobility time", ylab = "Mortality time", r=3, phi=40, theta = 40, ticktype="detailed", main=expression(hat(beta)(t,s)), zlab = "", border= NA, col="orangered", shade = 0.4)
 dev.off()
