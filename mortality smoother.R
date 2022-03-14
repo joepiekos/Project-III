@@ -4,6 +4,7 @@ regions <- read.csv("/Users/josephpiekos/Desktop/project III/data/english author
 mortality <- read.csv("/Users/josephpiekos/Desktop/project III/data/english_mortality_final.csv")
 mortality.regions <- read.csv("/Users/josephpiekos/Desktop/project III/data/regions_mortality_final.csv")
 CanadianWeather
+regions
 ###############
 dev.off()
 #mortality.plot plots the mortality curves for a subset of the 78 counties we are considering, with up to 181 days of data able to plot.

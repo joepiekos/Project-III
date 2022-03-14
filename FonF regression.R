@@ -5,7 +5,7 @@ library(refund)
 # Y(t) = f(t) + \int X1(s)\beta(s,t)ds + e
 
 mortality.matrix2 <- t(as.matrix(mortality))
-mobility2 <- read.csv("/Users/josephpiekos/Desktop/project III/mobility_matrix.csv")
+mobility2 <- read.csv("/Users/josephpiekos/Desktop/project III/data/mobility_matrix.csv")
 mobility.matrix2 <- t(as.matrix(mobility2))
 
 m_ff <- pffr(mortality.matrix2 ~ ff(mobility.matrix2,xind=seq(1,181,l=181))) #creates regression fit
