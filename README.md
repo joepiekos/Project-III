@@ -14,25 +14,25 @@ BEFORE RUNNING CODE:
 
 FIGURE LIST AND CORRESPONDING R FILE:
 
-figure 1.1 <- smoothing growth data.R 
-figure 1.2 <- mortality smoother.R
-figure 2.1 <- mobility smoother.R
-figure 2.2 <- positivity smoother.R
-figure 3.1 <- created in latex
-figure 3.2 <- spline order example.R
-figure 3.3 <- B-spline example.R
-figure 4.1 <- mobility smoother.R
-figure 4.2 <- GCV.R
-figure 5.1 <- simple phase vs amplitude variation.R
-figure 5.2 <- image taken from book and referenced in project
-figure 5.3 <- landmark and continuous registration.R
-figure 5.4 <- landmark and continuous registration.R
-figure 5.5 <- pca example for continuous registration.R
-figure 5.6 <- landmark and continuous registration.R
-figure 5.7 <- landmark and continuous registration.R
-figure 6.1 <- mortality covariance function.R
-figure 6.2 <- image taken from book and referenced in project
-figure 6.3 <- functional mortality boxplot.R
-figure 7.1 <- FonF regression.R
-figure 7.2 <- FonF regression.R
+figure 1.1 <- smoothing growth data.R <br />
+figure 1.2 <- mortality smoother.R <br />
+figure 2.1 <- mobility smoother.R <br />
+figure 2.2 <- positivity smoother.R <br />
+figure 3.1 <- created in latex <br />
+figure 3.2 <- spline order example.R <br />
+figure 3.3 <- B-spline example.R <br />
+figure 4.1 <- mobility smoother.R <br />
+figure 4.2 <- GCV.R <br />
+figure 5.1 <- simple phase vs amplitude variation.R <br />
+figure 5.2 <- image taken from book and referenced in project <br />
+figure 5.3 <- landmark and continuous registration.R <br />
+figure 5.4 <- landmark and continuous registration.R <br />
+figure 5.5 <- pca example for continuous registration.R <br />
+figure 5.6 <- landmark and continuous registration.R <br />
+figure 5.7 <- landmark and continuous registration.R <br />
+figure 6.1 <- mortality covariance function.R <br />
+figure 6.2 <- image taken from book and referenced in project <br />
+figure 6.3 <- functional mortality boxplot.R <br />
+figure 7.1 <- FonF regression.R <br />
+figure 7.2 <- FonF regression.R <br />
 figure 7.3 <- FonF regression.R
