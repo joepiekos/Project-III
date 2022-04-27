@@ -14,7 +14,7 @@ BEFORE RUNNING CODE:
 
 FIGURE LIST AND CORRESPONDING R FILE:
 
-figure 1.1 <- smoothing growth data.R
+figure 1.1 <- smoothing growth data.R 
 figure 1.2 <- mortality smoother.R
 figure 2.1 <- mobility smoother.R
 figure 2.2 <- positivity smoother.R
