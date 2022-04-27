@@ -1,15 +1,15 @@
 # Project-III
 
 OVERVIEW:
-Files here are supplementary material for my 3rd year mathematics project: <br />
--It focuses on a current branch of statistics known as functional data analysis (FDA), to analyse data collected over the course of the COVID-19 pandemic. <br />
+Files here are supplementary material to my 3rd year mathematics project: <br />
+-The dissertation focuses on a branch of statistics known as functional data analysis (FDA), to analyse data collected over the course of the COVID-19 pandemic. <br />
 -The aim is to compare smaller scale epidemics in each county of the UK, and characterise their shapes as curves. <br />
 -I use mortality, mobility and positivity data as "functional" variables and look at the statistical relationship between them. <br />
 -The final dissertation is also available for download from the github repo for anyone interested.
 
 BEFORE RUNNING CODE: 
-- load the data and packages into R using the "load data and packages.R" file
-- data can be downloaded from this github repo, and the user will have to adjust file path names when loading data
+- Load the data and packages into R using the "load data and packages.R" file
+- Data can be downloaded from this github repo as .csv files, and the user will have to adjust file path names when loading data to fit their personal file explorer
 
 
 FIGURE LIST AND CORRESPONDING R FILE:
